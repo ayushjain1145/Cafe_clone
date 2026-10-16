@@ -6,6 +6,9 @@
 			body{
 				margin:0px;
 			}
+			img{
+				border-radius:10px;
+			}
 			header{
 				height:80px;
 				border:1px solid black;
@@ -167,8 +170,8 @@
 			}
 			
 			.Book-table{
-				height:650px;
-				border:1px solid black;
+				height:690px;
+				border:1px solid grey;
 				margin:55px 0px 0px; 
 				display:flex;
 				flex-wrap:wrap;
@@ -191,14 +194,16 @@
 			.input-box{
 				height:80%;
 				width:50%;
-				border:1px solid black;
+				border:0px solid black;
 				margin:10px 0px 0px 0px ;
 			}
 			.imag-box{
 				height:80%;
 				width:49%;
-				border:1px solid black;
-				margin:10px 0px 0px 0px ;
+				border:0px solid black;
+				margin:10px 0px 0px 0px;
+				display:flex;
+				flex-wrap:wrap;
 			}
 			.par{
 				font-size:24px;
@@ -216,6 +221,26 @@
 				outline:none;
 				text-shadow:2px 3px lightgrey;
 				box-shadow:-3px 0px 2px grey;
+			}
+			
+			.select-name{
+				height:40px;
+				width:55%;
+				border-radius:8px;
+				border:1px solid grey;
+				margin:50px 0px 0px 160px;
+				font-size:18px;
+				outline:none;
+				text-shadow:2px 3px lightgrey;
+				box-shadow:-3px 0px 2px grey;
+			}
+			.Caf-view{
+				height:200px;
+				width:270px;
+				border:0px solid black;
+				margin:0px 0px 0px 40px;
+				border-radius:10px;
+				box-shadow:-5px -5px 5px yellow;  
 			}
 		</style>
 	</head>
@@ -422,7 +447,7 @@
 				
 					<div class="input-box">
 						<p class="par"><i>Book your table cafe shop Now</i></p>
-						
+						<form>
 						<input type="text" name="fullname" placeholder="Enter Your Name" required autocomplete  class="input-name">
 						
 						<input type="Email" name="email" placeholder="Enter Your Email" required autocomplete  class="input-name">
@@ -435,10 +460,37 @@
 
 						<input type="time" name="time" placeholder="current time" required autocomplete  class="input-name">
 
+						<select class="select-name" name="option" >
+							<option value="normalParty">Normal-Party</option>
+							<option value="birthdayParty">Birthday-Party</option>
+							<option value="friendsParty">Frinds-Party</option>
+							<option value="friendsParty">Celibartion-Party</option>
+						</select>
+						
+						<input type="submit" value="Submit" class="input-name" style="margin-left:215px;">
+						</form>
+						
+
 					</div>
 					
 					<div class="imag-box">
-					
+						<p class="par" style="margin-left:20%"><i>Cafe Shop Spiceal Views and Images </i></p>
+						
+						<div class="Caf-view">
+							<img src="https://dt4l9bx31tioh.cloudfront.net/eazymedia/eazytrendz/4775/trend20250319084656.jpg?width=750&height=436&mode=fit" height="100%" width="100%">
+						</div>
+						
+						<div class="Caf-view">
+							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJGE1as2-XeaRgkljdXsSAAv1dyhrS-4xxsf8LViW1na5rqXudqqIke79k&s=10" height="100%" width="100%">
+						</div>
+						
+						<div class="Caf-view">
+							<img src="https://paradiseyatra.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdop1mi4lg%2Fimage%2Fupload%2Ff_auto%2Cq_auto%3Agood%2Cdpr_auto%2Cw_1400%2Ch_788%2Cc_fill%2Cg_auto%2Fv1773308943%2Fparadise-yatra%2Fblogs%2Fimage-1773308940385-28447481_s1wb24.jpg&w=3840&q=75" height="100%" width="100%">
+						</div>
+						
+						<div class="Caf-view">
+							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt5CmyIx609teqfKwvJWt8hlIrXrncesBPUEVM7Uoda-BPku6ayb0FK-s&s=10" height="100%" width="100%">
+						</div>
 					</div>
 				
 				</div>
