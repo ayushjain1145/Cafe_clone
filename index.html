@@ -51,6 +51,20 @@
 				background-image:url('https://www.cafecoffeeday.com/sites/default/files/SB23-Website%20Banner-2.png');
 				bac-size:100% 100%;
 			}
+			.flip-imag{
+				height:50px;
+				width:150px;
+				background-color:black;
+				margin:0% 0px 0px 50%;
+				font-size:22px;
+				font-family:arial, sans-sarif;
+				text-align:Center;
+				border-radius:10px;
+				color:white;
+			}
+			<!-- .flip-imag:hover .poster{ -->
+				<!-- display:none;				 -->
+			<!-- } -->
 			.img{
 				height:100%;
 				width:100%;
@@ -58,6 +72,7 @@
 			.img:hover{
 				display:none;
 			}
+			
 			.cafe-Speciality{
 				height:200px;
 				background-color:white;
@@ -304,18 +319,72 @@
 				font-family: arial, sans-sarif;
 				margin:35px 0px 0px 10px;
 			}
+			
+			.Footer-cafe{
+				height:390px;
+				border:0px solid black;
+				margin:30px 0px 0px 0px;
+				
+				
+			}
+			.footer-in{
+				height:250px;
+				border:0px solid black;
+				margin:20px 0px 0px 0px;
+				display:flex;
+				justify-content:space-around;
+			}
+			.Footer-in-con{
+				height:250px;
+				width:350px;
+				border:0px solid black;
+				margin:0px 0px 0px 30px;
+			}
+			.addre{
+				font-size:18px;
+				font-family: arial, sans-sarif;
+				margin:30px 0px 0px 20px; 
+			}
+			.cafe-name{
+				font-size:22px;
+				font-family: "Great Vibes", cursive;
+				text-align:center;
+				margin-top:35px; 
+			}
+			.align{
+				text-align:right;
+				margin-top:40px;
+				margin-right:10px;
+				font-family: "Great Vibes", cursive;
+				
+			}
+			.Ins-logo{
+				font-size:32px;
+				text-align:right;
+				margin:30px 30px 0px 0px;
+			}
+			.Last-line{
+				font-size:18px;
+				font-family:arial, sans-sarif;
+				margin:15px 0px 0px 75px;
+				display:inline-block;
+			}
+			a{
+				text-decoration:none;
+				color:orange;
+			}
 		</style>
 	</head>
 	
 	<body>
-		<header>
-			<div class="cafe-logo">Cafe shop</div>
+		<header >
+			<div class="cafe-logo" id="home">Cafe shop</div>
 			
 			<div class="list">Home</div>
-			<div class="list" style="margin-left:35px;">Reservation</div>
-			<div class="list" style="margin-left:35px;">Order</div>
-			<div class="list" style="margin-left:30px;">About</div>
-			<div class="list" style="margin-left:30px;">Contect</div>
+			<a href="#rese"><div class="list" style="margin-left:35px;">Reservation</div></a>
+			<a href="#order"><div class="list" style="margin-left:35px;">Order</div></a>
+			<a href="#about"><div class="list" style="margin-left:30px;">About</div></a>
+			<a href="#cont"><div class="list" style="margin-left:30px;">Contect</div></a>
 				
 		</header>
 		
@@ -324,6 +393,8 @@
 			<section class="holding-images">
 				<div class="poster">
 					<img src="https://www.cafecoffeeday.com/sites/default/files/R-SB23-Website%20Banner-1.png" class="img">
+					
+					<!-- <div class="flip-imag">Click Me</div> -->
 				</div>
 			</section>
 			
@@ -356,7 +427,7 @@
 					
 				</div>
 			</section>
-			<hr>
+			<hr id="order">
 			<section class="food-images">
 					
 					<div class="verite">
@@ -494,7 +565,7 @@
 					</div>
 			</section>
 			
-			<hr style="margin-top:90px;margin-bottom:20px;">
+			<hr style="margin-top:90px;margin-bottom:20px;" id="rese">
 			
 			<section>
 				<div class="verite">
@@ -558,7 +629,7 @@
 				</div>
 			</section>
 			
-			<hr style="margin-top:50px;">
+			<hr style="margin-top:50px;" id="cont">
 			
 			<section>
 				<div class="contect-section">
@@ -590,6 +661,36 @@
 					</div>
 				</div>
 			</section>
+			
+			<hr>
 		</main>
+		
+		<footer id="about">
+			<div class="Footer-cafe">
+			
+				<p class="par">Cafe Shop About section</p>
+				
+				<div class="footer-in">
+					<div class="Footer-in-con">
+						<p class="par"><i>Contact</i></p>
+						<p class="addre"> B-17, 1st floor New Bulding T-V Center Chowk Place Chh.sambhajinagar, 431001</p>
+						<p class="par" style="text-align:left;font-size:20px">Call - +91 9325128241</p>
+					</div>
+					<div class="Footer-in-con">
+						<p class="cafe-name">Cafe Shop</p>
+						<p class="addre">Join our mailing list for updates, Get news & offers events.<br><br>Cafe-Shop in Spacial Evants is organies in Novamber 20 .</p>
+					</div>
+					<div class="Footer-in-con">
+						<p class="cafe-name align">Cafe shop Timing</p>
+						<p class="addre align">Mon – Fri: 11AM - 11PM <br><br>Sat - Sun: 10AM - 8PM</p>
+						<p class="Ins-logo"> <i class="ri-instagram-fill"></i>  <i class="ri-facebook-circle-fill"></i></p>
+					</div>
+				</div>
+				<hr style="width:92%;">
+				<span class="Last-line">Copyright © 2026 Cafeshop-Cafe | All Rights Reserved</span>
+				<span class="Last-line" style="margin-left:36%;"> Terms & Conditions | Privacy Policy</span>
+			</div>
+			
+		</footer>
 	</body>
 </html>
