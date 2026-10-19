@@ -1,0 +1,397 @@
+			body{
+				margin:0px;
+			}
+			img{
+				border-radius:10px;
+			}
+			header{
+				height:80px;
+				border-bottom:2px solid #464B71;
+				background-color:#FCF9EA;
+				display:flex;
+				position:sticky;
+				top:0;
+				z-index:2;
+			}
+			.cafe-logo{
+				height:45px;
+				width:120px;
+				border:0px solid grey;
+				text-shadow:2px 2px  grey;
+				margin:20px 0px 0px 3%;	
+				font-size:24px;
+				font-family: "Great Vibes", cursive;
+				font-weight:100;
+				font-style: normal;
+				text-align:center;
+			}
+			.list{
+				height:30px;
+				width:90px;
+				margin:29px 0px 0px 40%;
+				border: 0px solid black;
+				font-size:20px;
+				font-family:arial, sans-sarif ;
+				text-align:center;
+				color:black;
+			}
+			.list:hover{
+				transform:scale(105%);
+			}
+			.holding-images{
+				height:500px;
+				background-color:pink;
+				margin-top:30px;
+			}
+			.poster{
+				height:500px;
+				background-color:red;
+				background-image:url('https://www.cafecoffeeday.com/sites/default/files/R-SB23-Website%20Banner-1.png');
+				background-size:100% 100%;
+				transition-property:background-image 7s;
+				transition-duration:2s;
+				transition-timing-function:linear;
+			}
+			.poster:hover{
+				background-image:url('https://www.cafecoffeeday.com/sites/default/files/SB23-Website%20Banner-2.png');
+				background-size:100% 100%;
+			}
+			
+			
+			.flip-imag{
+				height:50px;
+				width:150px;
+				background-color:black;
+				margin:0% 0px 0px 50%;
+				font-size:22px;
+				font-family:arial, sans-sarif;
+				text-align:Center;
+				border-radius:10px;
+				color:white;
+			}
+			
+			.img{
+				height:100%;
+				width:100%;
+			}
+			.img:hover{
+				display:none;
+			}
+			
+			.cafe-Speciality{
+				height:200px;
+				background-color:white;
+				margin-top:80px;
+				display:flex;
+			}
+			.icon{
+				height:85px;
+				width:110px;
+				border-radius:100px;
+				background-color:#0D1C42;
+				margin:50px 0px 0px 130px;
+				text-align:center;
+				font-size:52px;
+				padding-top:25px;
+				color:white;
+				<!-- text-shadow:5px -20px grey; -->
+			}
+			
+			.icon:hover{
+				transform:scale(105%);
+			}
+			.description{
+				height:80px;
+				width:150px;
+				border:0px solid black;
+				margin:45px 0px 0px 10px;
+				font-size:22px;
+				font-family: "Great Vibes", cursive;
+				text-align:center;	
+			}
+			.small-size{
+				font-size:16px;
+				font-family:arial, sans-sarif;
+			}
+			.food-images{
+				height:600px;
+				margin:50px 0px 0px 0px;
+				display:flex;
+				flex-wrap:wrap;
+			}
+			.h2{
+				font-size:32px;
+				text-align:center;
+				font-family:"great vibes", cursive;
+				margin:0px;
+				position:relative;
+				top:30px;
+				text-shadow:0px 12px lightgrey;
+			}
+			
+			.verite{
+				height:100px;
+				width:100%;
+				margin:0px 0px 0px 0%;
+			}
+			.im{
+				height:350px;
+				width:100%;
+				background-color:white;
+				display:flex;
+				margin-top:-10px;
+				flex-wrap:wrap;
+			}
+			.Food-se{
+				height:320px;
+				width:300px;
+				border:0px solid #0A7C6E;
+				background-color:#FBEFEF;
+				border-radius:10px;
+				margin:50px 0px 0px 100px;
+				box-shadow:-2px 0px 6px #11224E;
+				
+			}
+			.Food-se:hover{
+				transform: scale(102%);
+			}
+			.snadw{
+				height:200px;
+				width:250px;
+				border:1px solid yellow;
+				border-radius:10px;
+				margin:20px 0px 0px 25px;
+				box-shadow:-2px 0px 6px red;
+			}
+			.Gril{
+				font-size:18px;
+				font-family:arial, sans-sarif;
+				margin:15px 0px 0px 20px;
+			}
+			.order{
+				height:26px;
+				width:150px;
+				border:1px solid #F5B52E;
+				background-color:#A56F63;
+				border-radius:5px;
+				margin:3px 0px 0px 70px;
+				text-align:center;
+				font-size:18px;
+				font-family:arial, sans-sarif;
+				padding-top:4px;
+				transition:transform 1s;
+				transition-timing-function:linear;
+			}
+			.Left{
+				font-size:20px;
+				color:#790D16;
+			}
+			.order:hover {
+				transform:translate(10px, 0px);
+			}
+			
+			hr{
+				margin-top:30px;
+				width:89%
+			}
+			
+			.Book-table{
+				height:690px;
+				border:1px solid grey;
+				margin:55px 0px 0px; 
+				
+				display:flex;
+				flex-wrap:wrap;
+			}
+			.Table-details{
+				font-size:28px;
+				font-family:"grate Vibes", cursive;
+				margin:50px 35% 0px 42%;
+				text-align:center;
+				text-decoration:;
+				transition:transform 2s;
+				transition-timing-function:linear;
+				transition-duration: 1s;
+			}
+			.Table-details:hover{
+				transform:translate(0px, -15px);
+				color:pink;
+			}
+			
+			.input-box{
+				height:80%;
+				width:50%;
+				border:0px solid black;
+				margin:10px 0px 0px 0px ;
+			}
+			.imag-box{
+				height:80%;
+				width:49%;
+				border:0px solid black;
+				margin:10px 0px 0px 0px;
+				display:flex;
+				flex-wrap:wrap;
+			}
+			.par{
+				font-size:24px;
+				font-family: arial, sans-sarif;
+				text-align:center;
+				margin:50px 0px 0px;
+			}
+			.input-name{
+				height:40px;
+				width:35%;
+				border-radius:8px;
+				border:1px solid grey;
+				margin:50px 0px 0px 50px;
+				font-size:18px;
+				outline:none;
+				text-shadow:2px 3px lightgrey;
+				box-shadow:-3px 0px 2px grey;
+			}
+			.input-name:hover{
+				transform:scale(104%);
+			}
+			
+			.select-name{
+				height:40px;
+				width:55%;
+				border-radius:8px;
+				border:1px solid grey;
+				margin:50px 0px 0px 160px;
+				font-size:18px;
+				outline:none;
+				text-shadow:2px 3px lightgrey;
+				box-shadow:-3px 0px 2px grey;
+			}
+			.Caf-view{
+				height:200px;
+				width:270px;
+				border:0px solid black;
+				margin:0px 0px 0px 40px;
+				border-radius:10px;
+				box-shadow:-5px -5px 5px #522D60;  
+			}
+			.Caf-view:hover{
+				transform:scale(105%);
+				
+			}
+			
+			.contect-section{
+				height:650px;
+				border:0px solid black;
+				margin-top:50px;
+			}
+			
+			.contact-detils{
+				height:520px;
+				width:60%;
+				margin:30px 0px 0px 20%;
+				background-color:#116D6E;
+				display:flex;
+				flex-wrap:wrap;
+				color:white;
+			}
+			.dicon{
+				height:55px;
+				width:81px;
+				border-radius:100px;
+				background-color:#116D6E;
+				margin:40px 0px 0px 100px;
+				text-align:center;
+				font-size:32px;
+				padding-top:25px;
+				color:white;
+				box-shadow:-1px 0px 3px #B8CFB3;
+			}
+			.dicon:hover{
+				transform:scale(103%);
+				
+			}
+			.caption{
+				height:50px;
+				width:60%;
+				border:0px solid black;
+				margin:55px 0px 0px 20px;
+				font-size:18px;
+				font-family:arial, sans-sarif;
+				padding-top:5px;
+			}
+			.diconin{
+				height:48px;
+				width:60px;
+				border-radius:100px;
+				background-color:#116D6E;
+				margin:20px 0px 0px 25%;
+				text-align:center;
+				font-size:28px;
+				padding-top:12px;
+				color:white;
+			}	
+			.Cafe-con{
+				font-size:24px;
+				font-family: "grate Vibes", cursive;
+				text-align:center;
+				margin:50px 0px 0px;
+				text-shadow:-1px -1px grey;
+			}
+			.insta{
+				font-size:24px;
+				font-family: arial, sans-sarif;
+				margin:35px 0px 0px 10px;
+			}
+			
+			.Footer-cafe{
+				height:390px;
+				background-color:lightgrey;
+				/* color:white;  */
+				margin:30px 0px 0px 0px;
+				
+				
+			}
+			.footer-in{
+				height:250px;
+				border:0px solid black;
+				margin:20px 0px 0px 0px;
+				display:flex;
+				justify-content:space-around;
+			}
+			.Footer-in-con{
+				height:250px;
+				width:350px;
+				border:0px solid black;
+				margin:0px 0px 0px 30px;
+			}
+			.addre{
+				font-size:18px;
+				font-family: arial, sans-sarif;
+				margin:30px 0px 0px 20px; 
+			}
+			.cafe-name{
+				font-size:22px;
+				font-family: "Great Vibes", cursive;
+				text-align:center;
+				margin-top:35px; 
+			}
+			.align{
+				text-align:right;
+				margin-top:40px;
+				margin-right:10px;
+				font-family: "Great Vibes", cursive;
+				
+			}
+			.Ins-logo{
+				font-size:32px;
+				text-align:right;
+				margin:30px 30px 0px 0px;
+			}
+			.Last-line{
+				font-size:18px;
+				font-family:arial, sans-sarif;
+				margin:15px 0px 0px 75px;
+				display:inline-block;
+			}
+			a{
+				text-decoration:none;
+				color:orange;
+			}
